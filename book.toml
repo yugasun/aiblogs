@@ -18,3 +18,12 @@ enable = true
 
 [build]
 create-missing = true
+
+[output.html.playground]
+editable = true
+copyable = true
+copy-js = true
+line-numbers = true
+
+# Mermaid preprocessor for rendering diagrams
+[preprocessor.mermaid]

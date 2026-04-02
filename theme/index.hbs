@@ -45,10 +45,50 @@
         <link rel="stylesheet" href="{{ resource this }}">
         {{/each}}
 
+        <!-- Mermaid CSS -->
+        <link rel="stylesheet" href="{{ resource "css/mermaid.css" }}">
+
         {{#if mathjax_support}}
         <!-- MathJax -->
         <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
         {{/if}}
+
+        <!-- Mermaid.js for diagram rendering -->
+        <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+        <script>
+            mermaid.initialize({
+                startOnLoad: false,
+                theme: 'default',
+                themeVariables: {
+                    primaryColor: '#4a90e2',
+                    primaryTextColor: '#24292e',
+                    primaryBorderColor: '#4a90e2',
+                    lineColor: '#6e7781',
+                    secondaryColor: '#f6f8fa',
+                    tertiaryColor: '#f6f8fa',
+                },
+                flowchart: {
+                    useMaxWidth: true,
+                    htmlLabels: true,
+                    curve: 'basis'
+                },
+                sequence: {
+                    useMaxWidth: true,
+                    diagramMarginX: 20,
+                    diagramMarginY: 20
+                },
+                gantt: {
+                    useMaxWidth: true
+                }
+            });
+
+            // Render mermaid diagrams after page load
+            document.addEventListener('DOMContentLoaded', function() {
+                mermaid.run({
+                    querySelector: '.mermaid'
+                });
+            });
+        </script>
 
         <!-- Provide site root and default themes to javascript -->
         <script>

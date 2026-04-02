@@ -1,0 +1,88 @@
+/* Mermaid diagram styling for mdBook */
+
+/* Container for mermaid diagrams */
+.mermaid {
+    text-align: center;
+    margin: 1.5em 0;
+    padding: 1em;
+    background: transparent;
+}
+
+/* Ensure mermaid SVGs scale properly */
+.mermaid svg {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Dark mode adjustments */
+html.syntax--dark .mermaid {
+    filter: brightness(0.9) contrast(1.1);
+}
+
+/* Code block styling within mermaid */
+.mermaid code {
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+}
+
+/* Prevent line breaks in node text */
+.mermaid .nodeLabel {
+    white-space: nowrap;
+}
+
+/* Better spacing for flowchart diagrams */
+.mermaid .edgeLabel {
+    background-color: #f6f8fa;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+html.syntax--dark .mermaid .edgeLabel {
+    background-color: #21262d;
+}
+
+/* Sequence diagram improvements */
+.mermaid .actor {
+    fill: #f6f8fa;
+    stroke: #4a90e2;
+}
+
+html.syntax--dark .mermaid .actor {
+    fill: #21262d;
+}
+
+/* Message arrows */
+.mermaid .messageLine0,
+.mermaid .messageLine1 {
+    stroke: #6e7781;
+}
+
+/* Activation boxes */
+.mermaid .activation0,
+.mermaid .activation1,
+.mermaid .activation2 {
+    fill: #e1e4e8;
+    stroke: #4a90e2;
+}
+
+html.syntax--dark .mermaid .activation0,
+html.syntax--dark .mermaid .activation1,
+html.syntax--dark .mermaid .activation2 {
+    fill: #30363d;
+}
+
+/* Gantt chart styling */
+.mermaid .task {
+    fill: #4a90e2;
+}
+
+html.syntax--dark .mermaid .task {
+    fill: #58a6ff;
+}
+
+/* Error state */
+.mermaid-error {
+    display: none !important;
+}
