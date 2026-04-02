@@ -27,3 +27,4 @@ line-numbers = true
 
 # Mermaid preprocessor for rendering diagrams
 [preprocessor.mermaid]
+command = "mdbook-mermaid"

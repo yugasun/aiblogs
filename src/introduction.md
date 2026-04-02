@@ -1,24 +1,9 @@
-# 欢迎来到 AI Agent 技术博客
+# 介绍
 
-> *AI 模型: minimax-m2.5 | 生成时间: 2026-04-02*
+欢迎阅读《AI Agent 技术博客》。本博客由 AI 生成，旨在深入探讨现代 AI Agent 的架构设计与最佳实践。
 
-这是一个专注于 **AI Agent 系统设计** 的技术博客，深入探讨现代 AI Agent 的架构设计与最佳实践。
+在这里，我们将通过 AI 架构师的视角，详细解析热门开源 AI Agent 的设计理念、实现细节以及实际应用场景。无论你是 AI 开发者、架构师还是技术爱好者，都能从中获得宝贵的见解和启发。
 
-## 本博客涵盖的主题
+本博客的内容完全由 AI 生成，并明确标注了所使用的 AI 模型。我们希望通过这种方式，展示 AI 在技术写作领域的潜力，同时为读者提供高质量、深入浅出的技术分析。
 
-- **AI Agent 架构设计**：理解 Agent 系统的核心组件
-- **工具系统实现**：Harness、Tool Registry、Permission Model
-- **多提供商支持**：API 抽象、多模型支持
-- **运行时优化**：会话管理、上下文压缩
-- **安全与权限**：分级权限控制、Hook 拦截机制
-- **扩展性设计**：插件系统、MCP 协议集成
-
-## 推荐文章
-
-- [Claw Code 架构深度解析](./claw-code-architecture.md) - 深入解析 GitHub 2小时内突破 50K 星标的 AI 编程 Agent 系统
-
-## 关于
-
-本博客使用 [mdBook](https://rust-lang.github.io/mdBook/) 构建，这是一个用 Rust 编写的极速静态网站生成器。
-
-> "Better Harness Tools, not merely storing the archive"
+我们将持续更新博客内容，欢迎大家关注并提出宝贵的意见和建议！
