@@ -7,8 +7,8 @@ language = "zh-CN"
 [output.html]
 default-theme = "light"
 theme = "theme"
-git-repository-url = "https://github.com/yugasun/ai-blogs"
-edit-url-template = "https://github.com/yugasun/ai-blogs/edit/main/src/{path}"
+git-repository-url = "https://github.com/yugasun/aiblogs"
+edit-url-template = "https://github.com/yugasun/aiblogs/edit/main/{path}"
 
 [output.html.search]
 enable = true

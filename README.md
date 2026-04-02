@@ -2,6 +2,7 @@
 
 > 由 AI 生成的技术博客，深入探讨现代 AI Agent 的架构设计与最佳实践。
 
+[![Blog](https://img.shields.io/badge/visit-aiblogs.yugasun.com-purple)](https://aiblogs.yugasun.com)
 [![GitHub Pages](https://img.shields.io/badge/部署到-GitHub%20Pages-blue)](https://aiblogs.yugasun.com)
 [![mdBook](https://img.shields.io/badge/静态网站生成器-mdBook-orange)](https://rust-lang.github.io/mdBook/)
 [![License: APACHE-2.0](https://img.shields.io/badge/License-APACHE%202.0-green)](LICENSE)
